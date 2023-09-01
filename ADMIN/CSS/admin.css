@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background:linear-gradient( rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.562)), url("/Untitled\ design\ \(1\).png"), no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    color: white;
+
+}
+nav{
+    height: 100%;
+    width: 15%;
+    background-color:#0B360F;
+    font-family: Arial;
+    display: flex;
+    color: rgb(255, 255, 255);
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav li{
+    
+    padding: 1rem;
+    height: 100%;
+    width: 80%;
+}
+nav a{
+    display: flex;
+    text-align: center;
+    color: inherit;
+    text-decoration: none;
+    font-size: 25px;
+    height: 100%;
+    letter-spacing: 3px;
+    align-items: center;
+    justify-content: center;
+}
+nav li.active{
+    color: #A2B92F;
+    text-decoration: dashed;
+    border-bottom:solid 3px;
+}
+nav li:last-child{
+    color:red;
+}
+/* Log In */
+
+.Login-Container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Login-Container h1 {
+    font-size: 50px;
+    
+    color: yellowgreen;
+}
+.Login-Container form{
+    display: flex;
+    height: 60vh;
+    background-color: #ffffff78;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+.Login-Container label {
+    font-size: 25px;
+    margin: 20px;
+}
+.Login-Container input {
+    height: 5vh;
+    width: 60%;
+    font-size: 20px;
+    border-radius: 6px;
+    padding: 2px;
+    border-style: none;
+}
+.btn-Login {
+    margin-top: 20px;
+    display:flex;
+    position: relative;
+    justify-content: flex-end;
+}
+.btn-Login button{
+    background-color: #A2B92F;
+    width: 24vh;
+    height: 5vh;
+    margin: 20px;
+    border-radius: 6px;
+    font-size: 22px;
+    border:none;
+}
+.btn-Login button:hover{
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+
+}
+.btn-Login button a{
+    text-decoration: none;
+    color:black;
+}
+
+/* bookingContainer */
+
+.container{
+    display: flex;
+    width: 100%;
+    padding: 40px;
+    flex-direction: column;
+}
+.title{
+    margin-bottom: 100px;
+}
+.dashboardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 100%;
+}
+.dashboardContainer ul{
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.dashboardContainer li{
+
+    height: 20vh;
+    width: 30vh;
+    display: flex;
+    flex-direction: column;
+}
+.dashboardContainer h1{
+    font-weight: bolder;
+    width: 100%;
+    text-align: center;
+    border-bottom: solid 3px rgba(255, 255, 255, 0.637);
+    font-size: 25px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dashboardContainer p{
+    font-size: 60px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboardContainer li:nth-child(1){
+background-color: red;
+}.dashboardContainer li:nth-child(2){
+    background-color: goldenrod;
+    }.dashboardContainer li:nth-child(3){
+        background-color: green;
+        }.dashboardContainer li:nth-child(4){
+            background-color: palevioletred;
+            }.dashboardContainer li:nth-child(5){
+                background-color: firebrick;
+                }.dashboardContainer li:nth-child(6){
+                    background-color:burlywood;
+                    }
