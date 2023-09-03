@@ -242,3 +242,34 @@ background-color: red;
     text-decoration: none;
             
 }
+.menu-nav{
+    display: flex;
+}
+.menu-nav ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    list-style: none;
+
+}
+.menu-nav li{
+
+}
+.menu-nav a{
+    color: inherit;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+main{
+
+}
