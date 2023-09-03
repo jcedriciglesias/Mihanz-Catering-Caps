@@ -3,6 +3,7 @@
     padding: 0;
 }
 html{
+    
     background:linear-gradient( rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.562)), url("/Untitled\ design\ \(1\).png"), no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -44,6 +45,11 @@ nav a{
     letter-spacing: 3px;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+nav p{
+    font-size: 15px;
+    margin-top: -15px;
 }
 nav li.active{
     color: #A2B92F;
@@ -52,6 +58,16 @@ nav li.active{
 }
 nav li:last-child{
     color:red;
+}
+nav img{
+    height: 80px;
+}
+nav h1 {
+    font-size: 20px;
+    
+}
+#logo{
+    margin-top: -10px;
 }
 /* Log In */
 
@@ -71,7 +87,7 @@ nav li:last-child{
 .Login-Container form{
     display: flex;
     height: 60vh;
-    background-color: #ffffff78;
+    background-color: #ffffff1e;
     flex-direction: column;
     justify-content: center;
     align-items: center;

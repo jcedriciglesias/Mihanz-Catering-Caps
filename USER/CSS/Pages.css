@@ -30,7 +30,14 @@ nav{
     position: sticky;
     
     
-}   
+} 
+nav img{
+    height: 100px;
+}  
+nav {
+    font-size: 14px;
+    margin-top: -25px;
+}
 nav ul{
     list-style: none;
     display: flex;
@@ -48,7 +55,10 @@ nav a{
     height: stretch;
 }
 nav h1{
-    font-size: 35px;
+    margin-left: 20px;
+    font-family: cursive;
+    letter-spacing: 2px;
+    text-align: center;
 }
 nav li.active{
     color:greenyellow;
