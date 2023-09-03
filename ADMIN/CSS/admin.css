@@ -21,6 +21,7 @@ nav{
     background-color:#0B360F;
     font-family: Arial;
     display: flex;
+    flex-direction: column;
     color: rgb(255, 255, 255);
 }
 nav ul{
@@ -28,6 +29,7 @@ nav ul{
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100%;
 }
 nav li{
     
@@ -68,6 +70,9 @@ nav h1 {
 }
 #logo{
     margin-top: -10px;
+}
+nav li:hover{
+    background-color: rgba(128, 128, 128, 0.219);
 }
 /* Log In */
 
@@ -156,6 +161,10 @@ nav h1 {
     flex-wrap: wrap;
     gap: 20px;
 }
+.dashboardContainer a{
+   color:inherit;
+   text-decoration: none;
+}
 .dashboardContainer li{
 
     height: 20vh;
@@ -197,3 +206,39 @@ background-color: red;
                 }.dashboardContainer li:nth-child(6){
                     background-color:burlywood;
                     }
+
+.adminMenuNav{
+
+    display: flex;
+}
+.adminMenuNav ul{
+
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.adminMenuNav li{
+
+    width: 30vh;
+    height: 20vh;
+    border: solid;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.adminMenuNav li:hover{
+    background-color: rgba(128, 128, 128, 0.219);
+}
+.adminMenuNav a{
+
+    color: white;
+    text-decoration: none;
+            
+}

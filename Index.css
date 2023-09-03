@@ -6,6 +6,7 @@ html{
     background:linear-gradient( rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.562)), url("Untitled\ design\ \(1\).png"), no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    scroll-behavior: smooth;
 }
 body{
     height: 100%;
@@ -46,13 +47,28 @@ nav a{
     font-size: 25px;
     letter-spacing: 3px;
 }
-nav h1{
-    font-size: 35px;
+nav img{
+    height: 100px;
+}  
+nav #mcName{
+    font-size: 14px;
+    margin-top: -25px;
 }
-nav a.active{
-    color: yellowgreen;
+nav h1{
+    margin-left: 20px;
+    font-family: cursive;
+    letter-spacing: 2px;
+    text-align: center;
+}
+nav li.active{
+    color:greenyellow;
     text-decoration: dashed;
     border-bottom: solid;
+    background-color: rgba(128, 128, 128, 0.281);
+    
+}
+nav li:hover{
+    background-color: gray;
 }
 
 /*HOME PAGE*/
