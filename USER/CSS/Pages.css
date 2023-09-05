@@ -234,7 +234,6 @@ align-items: center;
 .menu-Card-Selection li{
     height: 50vh;
     width: 40vh;
-    border : 1px solid;
     margin: 20px;
     list-style: none;
     text-align: center;
@@ -361,4 +360,42 @@ footer a:hover{
 }
 .userProfileContainer{
     display: flex;
+}
+/* MENU */
+.menu-Card-Selection li:nth-child(1){
+    background-image: linear-gradient(rgba(0,0,0,50%),rgba(0,0,0,50%)),url(/USER/IMAGES/crispy\ pata\ \(pork\ menu.jpg);
+    background-size: cover ;
+    background-position: center
+}.menu-Card-Selection li:nth-child(2){
+    background-image: linear-gradient(rgba(0,0,0,50%),rgba(0,0,0,50%)),url(/USER/IMAGES/caldereta\ beef\ \(beef\ menu\).jpg);
+    background-size: cover ;
+    background-position: center
+}.menu-Card-Selection li:nth-child(3){
+    background-image: linear-gradient(rgba(0,0,0,50%),rgba(0,0,0,50%)),url(/USER/IMAGES/ChickenMenu.jpg);
+    background-size: cover ;
+    background-position-x: -64px;
+}.menu-Card-Selection li:nth-child(4){
+    background-image: linear-gradient(rgba(0,0,0,50%),rgba(0,0,0,50%)),url(/USER/IMAGES/sweet\ n\ sour\ fish\ fillet.jpg);
+    background-size: cover ;
+    background-position: center;
+}.menu-Card-Selection li:nth-child(5){
+    background-image: linear-gradient(rgba(0,0,0,50%),rgba(0,0,0,50%)),url(/USER/IMAGES/seafood.jpg);
+    background-size: cover ;
+    background-position: center
+}.menu-Card-Selection li:nth-child(6){
+    background-image: linear-gradient(rgba(0,0,0,50%),rgba(0,0,0,50%)),url(/USER/IMAGES/chicken-pancit-sotanghon-guisado-recipe.jpg);
+    background-size: cover ;
+    background-position: center
+}.menu-Card-Selection li:nth-child(7){
+    background-image: linear-gradient(rgba(0,0,0,50%),rgba(0,0,0,50%)),url(/USER/IMAGES/vegetable.jpg);
+    background-size: cover ;
+    background-position: center
+}.menu-Card-Selection li:nth-child(8){
+    background-image: linear-gradient(rgba(0,0,0,50%),rgba(0,0,0,50%)),url(/USER/IMAGES/filipino-fruit-salad-1.jpg);
+    background-size: cover ;
+    background-position: center
+}.menu-Card-Selection li:nth-child(9){
+    background-image: linear-gradient(rgba(0,0,0,50%),rgba(0,0,0,50%)),url(/USER/IMAGES/crispy\ pata\ \(pork\ menu.jpg);
+    background-size: cover ;
+    background-position: center
 }
