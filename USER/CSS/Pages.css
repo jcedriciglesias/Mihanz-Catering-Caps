@@ -359,3 +359,6 @@ footer a{
 footer a:hover{
     color: yellowgreen;
 }
+.userProfileContainer{
+    display: flex;
+}
