@@ -72,6 +72,10 @@ nav li.active{
 nav li:hover{
     background-color: gray;
 }
+#userProfile{
+    height: 50px;
+    border-radius: 25px;
+}
 
 /*HOME PAGE*/
 
@@ -253,8 +257,6 @@ align-items: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    
 }
 .Food-Container h1{
     margin-bottom: 100px;
@@ -266,8 +268,6 @@ align-items: center;
     flex-wrap: wrap;
     justify-content: center;
 }
-
-
 .Food-Card-Menu{
     height: 40vh;
     width: 40vh;
@@ -407,4 +407,43 @@ footer a:hover{
     font-size: 60px;
     background:linear-gradient(rgba(0,0,0,50%),rgba(0,0,0,50% ));
     border-radius: 10px;
+}
+.userProfileContainer{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+
+}
+.userProfileContainer ul{
+    list-style: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    text-align: center;
+}
+.userProfileContainer li{
+    background: rgb(255, 255, 255);
+    height: 5vh;
+    width: 60vh;
+    font-size: 30px;
+    border-radius: 10px;
+}
+#userImage{
+    height: 20vh;
+    width: 20vh;
+    border: solid;
+    border-radius: 20px; 
+}
+#btn-update{
+    background-color: yellowgreen;
+    width: 24vh;
+    height: 5vh;
+    margin: 20px;
+    border-radius: 6px;
+    font-size: 22px;
+    border:none;
 }
