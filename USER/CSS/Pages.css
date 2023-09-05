@@ -203,6 +203,7 @@ align-items: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 100px;
 }
 .menu-selection-Card{
     height: 40vh;
@@ -228,6 +229,8 @@ align-items: center;
     justify-content: center;
     height: 100%;
     font-size: 50px;
+    font-weight: bolder;
+    color: floralwhite;
 }
     
 
@@ -237,7 +240,7 @@ align-items: center;
     margin: 20px;
     list-style: none;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 10px;
     
 }
 .menu-Card-Selection li:hover{
@@ -381,21 +384,27 @@ footer a:hover{
 }.menu-Card-Selection li:nth-child(5){
     background-image: linear-gradient(rgba(0,0,0,50%),rgba(0,0,0,50%)),url(/USER/IMAGES/seafood.jpg);
     background-size: cover ;
-    background-position: center
+    background-position: center;
 }.menu-Card-Selection li:nth-child(6){
     background-image: linear-gradient(rgba(0,0,0,50%),rgba(0,0,0,50%)),url(/USER/IMAGES/chicken-pancit-sotanghon-guisado-recipe.jpg);
     background-size: cover ;
-    background-position: center
+    background-position: center;
 }.menu-Card-Selection li:nth-child(7){
     background-image: linear-gradient(rgba(0,0,0,50%),rgba(0,0,0,50%)),url(/USER/IMAGES/vegetable.jpg);
     background-size: cover ;
-    background-position: center
+    background-position: center;
 }.menu-Card-Selection li:nth-child(8){
     background-image: linear-gradient(rgba(0,0,0,50%),rgba(0,0,0,50%)),url(/USER/IMAGES/filipino-fruit-salad-1.jpg);
     background-size: cover ;
-    background-position: center
+    background-position: center;
 }.menu-Card-Selection li:nth-child(9){
-    background-image: linear-gradient(rgba(0,0,0,50%),rgba(0,0,0,50%)),url(/USER/IMAGES/crispy\ pata\ \(pork\ menu.jpg);
+    background-image: linear-gradient(rgba(0,0,0,50%),rgba(0,0,0,50%)),url(/USER/IMAGES/Southern-Sweet-Tea-3-of-6-scaled.jpg);
     background-size: cover ;
-    background-position: center
+    background-position: center;
+    background-position-y: -64px;
+}
+.menu-Card-Selection a:hover{
+    font-size: 60px;
+    background:linear-gradient(rgba(0,0,0,50%),rgba(0,0,0,50% ));
+    border-radius: 10px;
 }
