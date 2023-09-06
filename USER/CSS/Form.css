@@ -13,12 +13,6 @@ body{
     height: 100%;   
     width: 100%;
 }
-
-
-
-
-
-
 /*Navigation*/
 nav{
     font-family: Arial;
@@ -28,9 +22,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     top: 0;
-    position: sticky;
-    
-    
+    position: sticky;  
 }   
 nav ul{
     list-style: none;
