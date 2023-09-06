@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mihanz Catering | Home</title>
     <link rel="stylesheet" href="../CSS/Pages.css">
+    
 </head>
+
 <nav>
     <h1><img src="../IMAGES/LOGO.png" alt="MC-LOGO">
         <p id="mcName">Mihanz Catering</p></h1>
@@ -31,8 +33,37 @@
 
 </nav>
 <body>
-    
+    <section class="slider-wrapper">
+        <button class="slide-arrow" id="slide-arrow-prev">
+          &#8249;
+        </button>
+        <button class="slide-arrow" id="slide-arrow-next">
+          &#8250;
+        </button>
+        <ul class="slides-container" id="slides-container">
+          <li class="slide"><img src="/USER/T-IMAGES/FB_IMG_1683100309706.jpg" alt=""></li>
+          <li class="slide"><img src="/USER/T-IMAGES/FB_IMG_1683100324995.jpg" alt=""></li>
+          <li class="slide"></li>
+          <li class="slide"></li>
+        </ul>
+      </section>
 </body>
+<script>
+    const slidesContainer = document.getElementById("slides-container");
+const slide = document.querySelector(".slide");
+const prevButton = document.getElementById("slide-arrow-prev");
+const nextButton = document.getElementById("slide-arrow-next");
+
+nextButton.addEventListener("click", () => {
+  const slideWidth = slide.clientWidth;
+  slidesContainer.scrollLeft += slideWidth;
+});
+
+prevButton.addEventListener("click", () => {
+  const slideWidth = slide.clientWidth;
+  slidesContainer.scrollLeft -= slideWidth;
+});
+</script>
 <footer>
     <h1>
         Mihanz <br/> Catering
@@ -55,6 +86,7 @@
          </li>
             <a href="/ADMIN/Index.html"> Admin</a>
     </ul>
-   
+
+    
 </footer>
 </html>

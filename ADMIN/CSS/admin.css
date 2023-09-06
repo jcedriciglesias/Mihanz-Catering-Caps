@@ -271,5 +271,36 @@ background-color: red;
 
 
 main{
-
-}
+    display: flex;
+    flex-direction: column;
+    }
+    table {
+        margin-top: 20px;
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        border: solid 3px;
+      }
+      
+      td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+      th{
+        height: 30px;
+        font-size: 20px;
+        border: 3px solid #dddddd;
+        background-color: firebrick;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #dddddd47;
+      }
+      td button{
+        width: 100%;
+        background: transparent;
+        color: white;
+        border-style: none;
+        cursor: pointer;
+      }
