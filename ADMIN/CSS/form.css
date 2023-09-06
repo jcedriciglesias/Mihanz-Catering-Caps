@@ -81,75 +81,50 @@ nav li:hover{
     width: 100%;
     padding: 40px;
     flex-direction: column;
+    
 }
-.title{
-   
-}
-/* Menu child Navigation */
-.menu-nav{
+.user-data{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.user-data input{
+    margin: 15px;
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    
+}
+#userProfile{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
     margin-bottom: 30px;
+    border: solid;
 }
-.menu-nav ul{
-    display: flex;
-    width: 100%;
-    justify-content: space-evenly;
-    list-style: none;
-    background-color: rgba(255, 255, 255, 0.137);
-   
-
+.creationDate{
+    border-top: solid;
+    padding: 20px;
 }
-.menu-nav li{
-width: 100%;
-text-align: center;
-
+#btn-updateUser{
+    margin-bottom: 20px;
 }
-.menu-nav a{
-    color: inherit;
-    font-size: 25px;
+#btn-updateUser a{
     text-decoration: none;
-    display: flex;
-    justify-content: center;
+    color: black;
 }
-.menu-nav li.active{
-    color: #A2B92F;
-    text-decoration: dashed;
-    border-bottom:solid 5px;
-}
-.menu-nav li:hover{
-    background-color: rgba(128, 128, 128, 0.219);
-}
-main{
-display: flex;
-flex-direction: column;
-}
-table {
-    margin-top: 20px;
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-    border: solid 3px;
-  }
-  
-  td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-  }
-  th{
-    height: 30px;
+.reservationData{
     font-size: 20px;
-    border: 3px solid #dddddd;
-    background-color: firebrick;
-  }
-  
-  tr:nth-child(even) {
-    background-color: #dddddd47;
-  }
-  td button{
-    width: 100%;
-    background: transparent;
-    color: white;
+}
+.reservationData input{
+    width: 35%;
+    background-color: transparent;
     border-style: none;
-    cursor: pointer;
-  }
+    font-size: 20px;
+    margin: 5px;
+    border-bottom:solid 2px white  ;
+}
+::placeholder{
+    color:white;
+}

@@ -227,6 +227,7 @@ background-color: red;
     width: 30vh;
     height: 20vh;
     border: solid;
+    border-radius: 10px;
     font-size: 30px;
     display: flex;
     align-items: center;
@@ -234,7 +235,7 @@ background-color: red;
 
 }
 .adminMenuNav li:hover{
-    background-color: rgba(128, 128, 128, 0.219);
+    background-color: rgb(85, 22, 22);
 }
 .adminMenuNav a{
 
@@ -252,13 +253,14 @@ background-color: red;
     list-style: none;
 
 }
-.menu-nav li{
-
+.adminMenuNav li{
+    background-color: firebrick;
 }
 .menu-nav a{
     color: inherit;
     font-size: 25px;
     text-decoration: none;
+
 }
 
 
@@ -303,4 +305,8 @@ main{
         color: white;
         border-style: none;
         cursor: pointer;
+      }
+      td a{
+        text-decoration: none;
+        color: white;
       }
