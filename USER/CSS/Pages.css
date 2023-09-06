@@ -533,10 +533,7 @@ footer a:hover{
   .slide:nth-child(4) {
     background-color: #da6f2b;
   }
- .themecontainer{
-    display: flex;
-    justify-content: center;
- }
+
  .modal {
     display: none;
     position: fixed;
