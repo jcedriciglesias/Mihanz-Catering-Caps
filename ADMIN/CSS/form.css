@@ -123,8 +123,13 @@ nav li:hover{
     border-style: none;
     font-size: 20px;
     margin: 5px;
-    border-bottom:solid 2px white  ;
+    color: white;
 }
 ::placeholder{
     color:white;
+}
+
+.MenuContainer{
+    display: flex;
+    flex-direction: column;
 }
