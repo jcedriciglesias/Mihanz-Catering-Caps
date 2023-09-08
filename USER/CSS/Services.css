@@ -136,7 +136,7 @@ nav li:hover{
 .Services-Container li{
     height: 60vh;
     width: 40vh;
-    border-radius: 20px;
+    border-radius: 10px;
     background: linear-gradient(75deg, rgba(166, 2, 199, 0.500),rgba(255, 0, 140, 0.500));
 }
 .Services-Container li:hover{
@@ -169,7 +169,7 @@ nav li:hover{
     height:15vh;
     width: 40vh;
     margin: 35px;
-    border-radius: 20px;
+    border-radius: 10px;
     background: linear-gradient(45deg, rgba(1, 81, 255, 0.74), rgba(255, 2, 171, 0.678));
 }
 .Event-Container li:hover{
@@ -380,4 +380,13 @@ footer a:hover{
 }
 .promo-btn:hover{
     background-color: orange;
+}
+.back-btn{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 40px;
+    position: absolute;
+    top: 14%;
+    left: 23%;
 }
