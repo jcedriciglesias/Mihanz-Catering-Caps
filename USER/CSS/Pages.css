@@ -272,38 +272,38 @@ align-items: center;
     height: 40vh;
     width: 40vh;
     display: flex;
-    border: 1px solid;
     margin-bottom: 100px;
     flex-direction: column;
     align-items: center;
     padding: 10px;
-    color: black;
-    background-color: wheat;
+  
+ 
     border-radius: 20px;
     cursor: pointer;
 }
-.Food-Card-Menu:hover{
-box-shadow:  0px 0px 20px yellowgreen;
-}
-.Food-name p{
-    margin: 0;
-}
-.Food-name h2{
-    font-size: 30px;
+
+/* .Food-name h2{
+    color: white;
     margin-top: 14%;
+    font-weight: 100;
+} */
+.foodimg:hover{
+    height: 250px;
+    width: 350px;
+    
 }
 .Food-name{
     font-family: Arial;
-    color: black;
+    color: white;
     margin-top: 10px;
     margin-bottom: 10px;
-    font-weight: bolder;
-    font-size: 150%;
+    font-size: 20px;
 }
-.Food-Card-Menu img{
-    height: 100%;
-    width: 100%;
-    border-radius: 20px;
+.foodimg{
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    
 }
 .Food-Description{
     font-size: 20px;
@@ -317,7 +317,9 @@ box-shadow:  0px 0px 20px yellowgreen;
     left: 10%;
     background-color: transparent;
     border-style: none;
-}.back-btn a{
+
+}
+.back-btn a{
     text-decoration: none;
     font-size: 50px;
     color: white;
@@ -517,22 +519,7 @@ footer a:hover{
     flex: 1 0 100%;
   }
   
-  .slide:nth-child(1) {
-    background-color: #49b293;
-  }
   
-  .slide:nth-child(2) {
-    background-color: #b03532;
-  }
-  
-  .slide:nth-child(3) {
-    background-color: #6a478f;
-    margin: 0;
-  }
-  
-  .slide:nth-child(4) {
-    background-color: #da6f2b;
-  }
 
  .modal {
     display: none;
@@ -545,26 +532,41 @@ footer a:hover{
 }
 
 .modal-content {
+    font-family: Arial;
     color: #000000;
-    background-color: #fff;
+    background-color: wheat;
     padding: 20px;
     border-radius: 5px;
     position: absolute;
     top: 50%;
     left: 50%;
-    height: 50%;
-    width: 50%;
     transform: translate(-50%, -50%);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+.modal-content img{
+    height: 200px;
+    width: 300px;
 }
 
 .close {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: -5px;
+    right: 1px;
     cursor: pointer;
     color: red;
-    font-size: 50px;
-    font-weight: bolder;
+    font-size:  40px;
 }
+#foodName{
+    margin-bottom:20px;
+    font-size: 40px;
+    font-weight: 100;
+}
+#foodDescription{
+    margin:0px;
+    height: 150px;
+    width: 300px;
+    font: menu;
+    font-size: 15px;
+    
+} 
     

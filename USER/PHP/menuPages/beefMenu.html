@@ -31,15 +31,24 @@
         <div><button class="back-btn"><Link to="/menu"><IoMdArrowRoundBack/></Link></button></div>
             <h1>Beef Menu</h1>
             <li class="Food-Card-Menu" >
-                    <img src="/" alt=""onClick={() => setButtonPopup(true)} />
-                    <p class="Food-name">name</p>
-                    <Popup trigger={buttonPopup} setTrigger ={setButtonPopup}>
-                        <h3>hello world</h3>
-                    </Popup>
-                </li>
-            <ul >
-                
-            </ul>
+                <img src="/" alt="" id="openModalButton">
+                <p class="Food-name">name</p>
+            
+                    <h3>hello world</h3>
+                </Popup>
+            </li>
+            <div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="close" id="closeModalButton">&times;</span>
+        <img src="/USER/IMAGES/caldereta beef (beef menu).jpg" alt="">
+
+        <h1 id="foodName">Food Name</h1>
+        <p id="foodDescription">
+            Description
+        </p>
+    </div>
+</div>
+       <script src="/USER/JS/script.js"></script> 
         </div> 
     
 </body>
