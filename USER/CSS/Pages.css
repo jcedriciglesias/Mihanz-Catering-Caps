@@ -264,9 +264,10 @@ align-items: center;
 }
 .Food-Container ul{
     display: flex;
-    gap: 2%;
+    gap: 10%;
     flex-wrap: wrap;
-    justify-content: center;
+    width: 90%;
+    
 }
 .Food-Card-Menu{
     height: 40vh;
