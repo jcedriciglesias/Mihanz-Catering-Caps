@@ -577,4 +577,10 @@ footer a:hover{
     text-align: justify;
     
 } 
+#price{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
     

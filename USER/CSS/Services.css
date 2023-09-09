@@ -280,6 +280,22 @@ nav li:hover{
     font-size: 25px;
     margin: 20px;
     list-style: none;
+    width: 20%;
+}
+.rg-container ul{
+    display: flex;
+    flex-wrap: wrap;
+    border: solid;
+    width: 100%;
+    justify-content: center;
+    
+}
+
+.recom-container{
+    display: flex;
+    flex-wrap: wrap;
+    border: solid;
+    flex-direction: column;
 }
 .Generate-btn button{
     width: 30vh;
@@ -363,9 +379,6 @@ footer a:hover{
     border-radius: 10px;
     
 }
-
-    
-
 .promo-btn {
     height: 25px;
     width: 100px;
@@ -389,4 +402,186 @@ footer a:hover{
     position: absolute;
     top: 14%;
     left: 23%;
+}
+.promo-btn a{
+    text-decoration: none;
+    color: inherit;
+}
+.Form-Container{
+display: flex;
+justify-content: center;
+    color: white;
+    font-size: 30px;
+    height: 100vh;
+}
+
+.Reservation-form select{
+    width: 200px;
+    height: 30px;
+}
+
+/* Customization Form */
+.Customization-form #title{
+    font-size: 50px;
+    margin-bottom: 100px;
+}
+.Form-title{
+    font-size: 20px;
+}
+.Customization-form{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Arial;
+
+
+}
+.form-information p{
+
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.form-information li{
+    font-size: 20px;
+    margin: 10px;
+}
+.table-Information{
+margin-top: 5%;
+}
+.table-Information td{
+    font-size: 25px;
+}
+.table-Information td input{
+    height: 40px;
+    width: 100vh;
+    border-radius: 5px;
+    border-style: none;
+    margin: 5px;
+    font-size: 20px;
+
+}
+.form-btn{
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    border-style: none;
+    background: yellowgreen;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.btn-position-proceed{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin: 20px;
+}
+.form-btn a{
+    text-decoration: none;
+    color: black;
+}
+/* Food Select On Form */
+#title{
+    font-size: 50px;
+    margin-bottom: 100px;
+}
+.optionForm{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.optionForm table{
+margin-bottom: 50px;
+}
+.optionForm td{
+font-size: 25px;
+}
+.optionForm select{
+    width: 50vh;
+    height: 30px;
+    margin: 15px;
+    cursor: pointer;
+}
+.btn-FoodCustom{
+    display: flex;
+    width: 90%;
+    justify-content: flex-end;
+}
+.btn-FoodCustom button{
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    border-style: none;
+    background: yellowgreen;
+    font-size: 20px;
+    margin: 20px;
+    cursor: pointer;
+}
+.btn-FoodCustom a{
+    text-decoration: none;
+    color: #000000;
+}
+/* terms and condition */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    font-family: Arial;
+    color: #000000;
+    background-color: wheat;
+    padding: 20px;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.modal-content img{
+    height: 300px;
+    width: 400px;
+    margin: 20px;
+
+}
+.modal-content a{
+    text-decoration: none;
+    color: black !important;
+    
+}
+.modal-content button{
+    width: 100px;
+    margin: 5px;
+    background: white;
+    border-style: none;
+    border-radius: 20px;
+    height: 25px;
+    
+}
+
+.close {
+    position: absolute;
+    top: -10px;
+    right: -2px;
+    cursor: pointer;
+    color: red;
+    font-size:  40px;
+}
+/* Summary Tab */
+.request-summary{
+    display: flex;
 }
