@@ -79,12 +79,10 @@ nav li:hover{
 .container{
     display: flex;
     width: 100%;
-    padding: 40px;
+    padding: 5%;
     flex-direction: column;
 }
-.title{
-   
-}
+
 /* Menu child Navigation */
 .menu-nav{
     display: flex;
@@ -119,10 +117,18 @@ text-align: center;
 .menu-nav li:hover{
     background-color: rgba(128, 128, 128, 0.219);
 }
-main{
+.menu-crud{
 display: flex;
 flex-direction: column;
 align-items: center;
+height: 100%;
+    justify-content: center;
+}
+.menu-table{
+    display: flex;
+flex-direction: column;
+align-items: center;
+height: 100%;
 }
 .menu {
     margin-top: 20px;
