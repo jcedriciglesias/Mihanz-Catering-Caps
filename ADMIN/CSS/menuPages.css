@@ -149,6 +149,10 @@ height: 100%;
     border: 3px solid #dddddd;
     background-color: firebrick;
   }
+  .menu a{
+    text-decoration: none;
+    color: white;
+  }
   
   .menu tr:nth-child(even) {
     background-color: #dddddd47;
@@ -175,6 +179,7 @@ height: 100%;
     height: 20px;
     width: 250px;
   }
+ 
   #MenuImg{
     height: 200px;
     width: 200px;
