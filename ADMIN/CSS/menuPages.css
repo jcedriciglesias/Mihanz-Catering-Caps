@@ -122,8 +122,9 @@ text-align: center;
 main{
 display: flex;
 flex-direction: column;
+align-items: center;
 }
-table {
+.menu {
     margin-top: 20px;
     font-family: arial, sans-serif;
     border-collapse: collapse;
@@ -131,25 +132,109 @@ table {
     border: solid 3px;
   }
   
-  td, th {
+  .menu td, th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
   }
-  th{
+ .menu th{
     height: 30px;
     font-size: 20px;
     border: 3px solid #dddddd;
     background-color: firebrick;
   }
   
-  tr:nth-child(even) {
+  .menu tr:nth-child(even) {
     background-color: #dddddd47;
   }
-  td button{
+  .menu td button{
     width: 100%;
     background: transparent;
     color: white;
     border-style: none;
     cursor: pointer;
+  }
+/* Edit and View Menu */
+  .viewMenu{
+    width: 100%;
+  }
+  
+  .viewMenu td{
+    font-size: 25px;
+  }
+  .viewMenu tr{
+    margin: 20px;
+  }
+  .viewMenu input{
+    height: 20px;
+    width: 250px;
+  }
+  #MenuImg{
+    height: 200px;
+    width: 200px;
+    margin: 50px;
+  }
+  .viewMenu button{
+    height: 30px;
+    width: 100px;
+    margin: 20px;
+    font-size: 20px;
+    background: yellowgreen;
+    border-style: none;
+    border-radius: 20px;
+  }
+  .viewMenu a{
+    text-decoration: none;
+    color: black;
+  }
+/* Add Menu */
+.addMenu{
+    width: 100%;
+  }
+  
+  .addMenu td{
+    font-size: 25px;
+  }
+  .addMenu tr{
+    margin: 20px;
+  }
+  .addMenu input{
+    height: 20px;
+    width: 250px;
+  }
+  #MenuImg{
+    height: 200px;
+    width: 200px;
+    margin: 50px;
+  }
+  .addMenu button{
+    height: 30px;
+    width: 100px;
+    margin: 20px;
+    font-size: 20px;
+    background: yellowgreen;
+    border-style: none;
+    border-radius: 20px;
+  }
+  .addMenu a{
+    text-decoration: none;
+    color: black;
+  }
+  /* add-btn */
+  .add-btn{
+    width: 100%;
+  }
+  .add-btn button{
+    height: 30px;
+    width: 100px;
+    margin: 20px;
+    font-size: 20px;
+    background: yellowgreen;
+    border-style: none;
+    border-radius: 20px;
+  }
+  .add-btn a{
+    text-decoration: none;
+    color: black;
+    width: 100%;
   }

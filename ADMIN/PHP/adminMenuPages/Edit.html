@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin | Seafood Menu </title>
+    <title>Menu</title>
     <link rel="stylesheet" href="/ADMIN/CSS/menuPages.css">
 </head>
 <nav>
@@ -23,42 +23,59 @@
     <div class="container">
         
         <div class="menu-nav">
+            
             <ul>
-                <li><a href="allmenu.html">All</a></li>
+                <li class="active"><a href="allmenu.html">All</a></li>
                 <li ><a href="porkMenu.html">Pork</a></li>
                 <li ><a href="beefMenu.html">Beef</a></li>
                 <li><a href="chickenMenu.html">Chicken</a></li>
                 <li><a href="fishMenu.html">Fish</a></li>
-                <li class="active"><a href="seafoodMenu.html">Seafood</a></li>
+                <li><a href="seafoodMenu.html">Seafood</a></li>
                 <li><a href="pastaMenu.html">Pasta</a></li>
                 <li><a href="dessertMenu.html">Dessert</a></li>
                 <li><a href="drinksMenu.html">Drinks</a></li>
                     
             </ul>
         </div>
-        <main>
-            <h1 class="title">Seafood Menu</h1>
-            <table class="menu">
-                    <tr>
-                        <th>Image</th>
-                        <th>Name</th>
-                        <th>Description</th>
-                        <th>Price</th>
-                        <th>Status</th>
-                        <th>Edit</th>
-                    </tr>
-                    <tr>
-                        <td>file</td>
-                        <td>Name</td>
-                        <td>ipsum</td>
-                        <td>700</td>
-                        <td>active</td>
-                        <td>edit</td>
-                    </tr>
+        <main >
+            <table class="viewMenu" >
+                <img src="" alt="" id="MenuImg">
+                <tr>
+                    <td>Name:</td>
+                    <td><input  type="text"></td>
+                </tr>
+                <tr>
+                    <td>Description:</td>
+                    <td><input  type="text"></td>
+                </tr>
+                <tr>
+                    <td>Price:</td>
+                    <td><input   type="number" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td>Status</td>
+                    <td>
+                        <select  name="" id="">
+                            <option value="">Active</option>
+                            <option value="">inactive</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Image:</td>
+                    <td><input type="file" ></td>
+                </tr>
+
+                <tr>
+                    <td><button><a href="allmenu.html">Save</a></button></td>
+                    <td></td>
+                </tr>
             </table>
+
         </main>
+
     </div>
     
     
 </body>
-</html>
+</html> 
