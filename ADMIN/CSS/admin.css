@@ -310,3 +310,15 @@ main{
         text-decoration: none;
         color: white;
       }
+      .theme-btn{
+        height: 25px;
+        width: 100px;
+        border-radius: 20px;
+        border-style: none;
+        background: yellowgreen;
+        font-size: 20px;
+      }
+      .theme-btn a{
+        text-decoration: none;
+        color: black;
+      }
