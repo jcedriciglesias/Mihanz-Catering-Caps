@@ -74,3 +74,105 @@ nav h1 {
 nav li:hover{
     background-color: rgba(128, 128, 128, 0.219);
 }
+/* Main */
+.title{
+    margin-bottom: 100px;
+}
+.container{
+    display: flex;
+    width: 100%;
+    padding: 40px;
+    flex-direction: column;
+    justify-content: center;
+}
+.view-container{
+    display: flex;
+    width: 100%;
+    padding: 40px;
+    flex-direction: column;
+
+}
+.package{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    }
+    .view-tbl{
+        margin-top: 20px;
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        border: solid 3px;
+      }
+      
+     .view-tbl td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+      .view-tbl th{
+        height: 30px;
+        font-size: 20px;
+        border: 3px solid #dddddd;
+        background-color: firebrick;
+      }
+      
+      .view-tbl tr:nth-child(even) {
+        background-color: #dddddd47;
+      }
+      .view-tbl td button{
+        width: 100%;
+        background: transparent;
+        color: white;
+        border-style: none;
+        cursor: pointer;
+      }
+      .view-tbl  td a{
+        text-decoration: none;
+        color: white;
+      }
+/* Add */
+      .services-table{
+        width: 90%;
+    }
+    .services-table tr{
+        font-size: 25px;
+    }
+    .services-table td input{
+    width: 200px;
+    }
+    .services-btn{
+        margin: 20px;
+        height: 25px;
+        width: 100px;
+        border-radius: 20px;
+        border-style: none;
+        background: yellowgreen;
+        font-size: 20px;
+    }
+    .services-btn a{
+        text-decoration: none;
+        color: black;
+    }
+    #add-package{
+        margin: 20px;
+        height: 25px;
+        width: 100px;
+        border-radius: 20px;
+        border-style: none;
+        background: yellowgreen;
+        font-size: 20px;
+    }
+    #add-package a{
+        text-decoration: none;
+        color: black;
+    }
+    /* packages */
+    #view-img{
+        height: 300px;
+        width: 400px;
+    }
