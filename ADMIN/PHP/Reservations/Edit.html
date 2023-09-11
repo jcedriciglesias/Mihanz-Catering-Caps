@@ -16,89 +16,125 @@
         <li ><a href="../adminServices.html">Services</a></li>
         <li><a href="../adminBookings.html">Bookings</a></li>
         <li class="active"><a href="../adminReservation.html">Reservation</a></li>
+        <li><a href="../History.html">History</a></li>
         <li><a href="/ADMIN/Index.html">Log Out</a></li>
     </ul>
 </nav>
 <body>
     <!-- view -->
     <div class="container">
-            <table>
-                <tr>
-                    <td>Name:</td>
-                    <td><input  type="text" name="fullname" id="fullname" ></td>
-                    <td>Contact No.:</td>
-                    <td><input   type="tel" name="contactNumber" id="xontactNumber"></td>
-                </tr>
-                <tr>
-                    <td>Email:</td>
-                    <td><input type="email"  name="email" id="email" ></td>
-                    <td>Event Location:</td>
-                    <td><input  type="text" name="eventLocation" id="eventLocation" ></td>
-                </tr>
-                <tr>
-                    <td>Date of Event:</td>
-                    <td><input  type="date"  name="dateOfEvent" id="dateOfEvent"></td>
-                    <td>Time of Event:</td>
-                    <td><input  type="time"name="timeOfEvent" value="12:00">  <input   type="time"name="timeOfEvent" value="15:00"></td>
-                </tr>
-            </table>
-            <div class="detailsContainer">
-            <h1>Details</h1>
-        <table>
+        <table >
             <tr>
+                <td>Name:</td>
+                <td><input readonly type="text" name="fullname" id="fullname" ></td>
+                <td>Contact No.:</td>
+                <td><input readonly  type="tel" name="contactNumber" id="xontactNumber" ></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input readonly type="email"  name="email" id="email" ></td>
+                <td>Event Location:</td>
+                <td><input readonly type="text" name="eventLocation" id="eventLocation" ></td>
+            </tr>
+            <tr>
+                <td>Date of Event:</td>
+                <td><input readonly type="date"  name="dateOfEvent"  id="dateOfEvent"></td>
+                <td>Time of Event:</td>
+                <td><input readonly type="time"name="timeOfEvent" value="12:00">  <input readonly  type="time"name="timeOfEvent" value="15:00"></td>
+            </tr>
+            <tr>
+                <th><h1>Details</h1></th>
+            </tr>
+            <tr>
+                <td>Celebrant Name:</td>
+                <td><input readonly type="text"></td>
                 <td>Event: </td>
-                <td><input type="text" name="" id=""></td>
+                <td><input readonly type="text" name="" id=""></td>
+                
+                
+            </tr>
+            <tr>
                 <td>Package Type: </td>
-                <td><input type="text" name="" id=""></td>
-                
-            </tr>
-            <tr>
+                <td><input readonly type="text" name="" id=""></td>
                 <td>Pax:</td>
-                <td><input type="text" name="" id=""></td>
-                <td>Budget:</td>
-                <td><input type="number " name="" id=""></td>
+                <td><input readonly type="text" name="" id=""></td>
+                
             </tr>
             <tr>
+                <td>Budget:</td>
+                <td><input readonly type="number " name="" id=""></td>
                 <td>Theme:</td>
-                <td><input type="text" name="" id=""></td>
-            </tr>
-        </table>
-        </div>
-            <div class="MenuContainer">
-                <h1>Menu</h1>
-                <table>
-                    <tr>
-                        <td>Pork/Beef:</td>
-                        <td><input type="text" name="" id=""></td>
-                        <td>Chicken/Fish/Seafood:</td>
-                        <td><input type="text" name="" id=""></td>
-                    </tr>
-                    <tr>
-                        <td>Pasta/Pansit:</td>
-                        <td><input type="text" name="" id=""></td>
-                        <td>Vegetable:</td>
-                        <td><input type="text" name="" id=""></td>
-                    </tr>
-                    <tr>
-                        <td>Desserts:</td>
-                        <td><input type="text" name="" id=""></td>
-                        <td>Drinks:</td>
-                        <td><input type="text" name="" id=""></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td><button id="edit-btn"><a href="View.html">Save</a></button></td>
-                    </tr>
-                </table>
-            </div>
-            <div  >
+                <td><input readonly type="text" name="" id=""></td>
                 
-            </div>        
+            </tr>
+            <tr>
+                <th><h1>Menu</h1></th>
+            </tr>
+            <tr>
+                <td>Pork/Beef:</td>
+                <td>
+                    <select name="" id="">
+                        <option value=""></option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                    </select>
+                </td>
+                <td>Chicken/Fish/Seafood:</td>
+                <td>
+                    <select name="" id="">
+                        <option value=""></option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Pasta/Pansit:</td>
+                <td>
+                    <select name="" id="">
+                        <option value=""></option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                    </select>
+                </td>
+                <td>Vegetable:</td>
+                <td>
+                    <select name="" id="">
+                        <option value=""></option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Desserts:</td>
+                <td>
+                    <select name="" id="">
+                        <option value=""></option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                    </select>
+                </td>
+                <td>Drinks:</td>
+                <td>
+                    <select name="" id="">
+                        <option value=""></option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>                       
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><button id="edit-btn"><a href="View.html">Save</a></button></td>
+            </tr>    
+        </table>
+               
         </div>
 </body>
 </html>
