@@ -432,7 +432,7 @@ justify-content: center;
     color: white;
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
     height: auto;
     align-items: center;
     justify-content: space-between;
@@ -451,7 +451,7 @@ justify-content: center;
     margin: 10px;
 }
 .table-Information{
-margin-top: 5%;
+width: 90%;
 }
 .table-Information td{
     font-size: 25px;
@@ -540,7 +540,7 @@ font-size: 25px;
 .modal-content {
     font-family: Arial;
     color: #000000;
-    background-color: wheat;
+    background-color: white;
     padding: 20px;
     border-radius: 5px;
     position: absolute;
@@ -566,10 +566,11 @@ font-size: 25px;
 .modal-content button{
     width: 100px;
     margin: 5px;
-    background: white;
+    background: yellowgreen;
     border-style: none;
     border-radius: 20px;
     height: 25px;
+    font-size: 20px;
     
 }
 
@@ -588,7 +589,7 @@ font-size: 25px;
 section{
     height: 50vh;
     width: 100vh;
-    background-color: white;
+    background-color: #e1e1e1;
     padding: 20px;
 }
 section{
@@ -611,5 +612,22 @@ section ol{
     margin: 5%;
 }
 section li{
+    margin: 20px;
+}
+/* menu option */
+.selection-menu{
+    display: flex;
+    font-size: 25px;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+}
+.selection{
+    margin: 20px;
+    width: 100%;
+}
+.selection-title{
+    font-size: 20px;
     margin: 20px;
 }
