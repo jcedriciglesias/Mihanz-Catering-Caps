@@ -585,3 +585,31 @@ font-size: 25px;
 .request-summary{
     display: flex;
 }
+section{
+    height: 50vh;
+    width: 100vh;
+    background-color: white;
+    padding: 20px;
+}
+section{
+    overflow: scroll;
+    text-align: justify;
+}
+section h1{
+font-size: 30px;
+font-weight: 100;
+
+}
+section p{
+    letter-spacing: .5px;
+}
+section i{
+    color: blue;
+}
+section ol{
+    text-indent: 5%;
+    margin: 5%;
+}
+section li{
+    margin: 20px;
+}

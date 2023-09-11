@@ -165,24 +165,28 @@ table{
 }
 td input{
     width: 90%;
-    background-color: transparent;
     border-style: none;
     font-size: 20px;
     margin: 5px;
-    color: white;
+    color: black;
+}
+td input{
+    border-bottom: solid 1px;
 }
 table{
     width: 90%;
 }
-::placeholder{
-    color:white;
+td select{
+    height: 30px;
+    border-style: none none solid;
+    width: 300px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    margin: 10px;
+    border-bottom-width: 3px;
+    border-bottom-color: white;
 }
-
-.MenuContainer{
-    display: flex;
-    flex-direction: column;
-}
-
 #edit-btn{
     height: 30px;
     background: yellowgreen;
@@ -195,17 +199,4 @@ table{
 #edit-btn a{
     text-decoration: none;
     color: black;
-}
-.detailsContainer{
-    width: 90%;
-}
-.detailsContainer h1{
-    margin: 20px;
-}
-.MenuContainer{
-    width: 90%;
-
-}
-.MenuContainer h1{
-    margin: 20px;
 }
