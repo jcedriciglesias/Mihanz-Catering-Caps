@@ -280,9 +280,9 @@ nav li:hover{
     font-size: 25px;
     margin: 20px;
     list-style: none;
-    width: 20%;
     background-color: wheat;
     color: black;
+    width: 20%;
     border-radius: 10px;
 }
 .rg-container ul{
@@ -296,9 +296,12 @@ nav li:hover{
 .recom-container{
     display: flex;
     flex-wrap: wrap;
-
     flex-direction: column;
 }
+.recom-container li{
+width: auto;
+}
+
 .Form-btn button{
     width: 30vh;
     background-color: #A2B92F;
@@ -496,6 +499,7 @@ width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 100px;
 }
 .optionForm table{
 margin-bottom: 50px;
@@ -632,4 +636,7 @@ section li{
 .selection-title{
     font-size: 20px;
     margin: 20px;
+}
+#selection{
+    width: 100px;
 }
