@@ -169,6 +169,13 @@ nav li:hover{
                 padding: 40px;
                 flex-direction: column;
               }
+              td a{
+                text-decoration: none;
+                color: white;
+              }
+              td a:hover{
+                color: #A2B92F;
+              }
 /* sub menu */
 .sub-menu{
 display: none;

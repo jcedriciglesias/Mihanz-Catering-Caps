@@ -69,6 +69,23 @@ nav h1 {
 nav li:hover{
     background-color: rgba(128, 128, 128, 0.219);
 }
+.subMenu{
+    display: none;
+  }
+  nav ul li:hover .subMenu{
+    display: block;
+    flex-direction: column;
+    transition: display 0.3s ease-out;
+
+   
+}
+.subMenu ul li a{
+    font-size: 15px;
+   
+}
+.subMenu .active{
+    display: block;
+}
 
 /* Log In */
 
@@ -321,20 +338,4 @@ main{
         text-decoration: none;
         color: black;
       }
-      .subMenu{
-        display: none;
-      }
-      nav ul li:hover .subMenu{
-        display: block;
-        flex-direction: column;
-        transition: display 0.3s ease-out;
-    
-       
-    }
-    .subMenu ul li a{
-        font-size: 15px;
-       
-    }
-    .subMenu .active{
-        display: block;
-    }
+      
