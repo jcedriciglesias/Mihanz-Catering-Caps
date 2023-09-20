@@ -105,11 +105,15 @@ td input{
     margin: 5px;
     color: black;
 }
+td{
+    font-size: 30px;
+}
 td input{
     border-bottom: solid 1px;
 }
 table{
     width: 90%;
+    height: 80%;
 }
 .detailsContainer{
     width: 90%;
@@ -126,4 +130,13 @@ table{
 }
 td select{
     width: 90%;
+}
+#prnt-btn{
+    height: 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 100px;
+    border-style: none;
+    background: yellowgreen;
+    cursor: pointer;
 }
